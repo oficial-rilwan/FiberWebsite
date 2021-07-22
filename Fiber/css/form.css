@@ -1,0 +1,92 @@
+.form__header{
+    margin-top: 2rem;
+    font-weight: 800;
+}
+.signup__subheader{
+    font-weight: 700;
+}
+
+.signup__form{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.signup__content{
+    background-color: #5900ff;
+}
+.signup__content h3{
+    text-align: center;
+    color: white;
+    
+}
+.signup__content p{
+    text-align: center;
+    color: #ddd;
+    padding: 0 5rem;
+}
+label{
+    display: block;
+    font-weight: 700;
+}
+.form__control{
+    margin: 1rem auto;
+}
+input:not(.check__box){
+    padding: .5rem;
+    border-radius: .25rem;
+    border: 1px solid #ddd;
+    width: 75%;
+    outline: 0;
+
+}
+.check__box__container{
+    width: 75%;
+    margin: auto 0;
+    display: flex;
+}
+.check__content{
+    margin-top: -6px;
+}
+.check__box{
+    margin-right: .5rem;
+}
+.create__account__button{
+    margin: 1rem 0;
+    padding: .8rem 1.5rem;
+    font-weight: 700;
+    border-radius: .25rem;
+    border: none;
+    background-color: #5900ff;
+    color: white;
+}
+.signin__link{
+    color: #5900ff;
+}
+.signin__link:hover{
+    text-decoration: none;
+}
+.terms{
+    font-weight: 700;
+    text-decoration: underline;
+    color: #5900ff;
+}
+.signup__img{
+    padding: 5rem 3rem 1rem 3rem;
+    
+}
+@media screen and (max-width: 768px){
+    .signup__content{
+        display: none;
+    }
+    input:not(.check__box){
+        padding: .5rem;
+        border-radius: .25rem;
+        border: 1px solid #ddd;
+        width: 100%;
+    
+    }
+    .check__box__container{
+        width: 100%;
+        margin: auto 0;
+        display: flex;
+    }
+}
